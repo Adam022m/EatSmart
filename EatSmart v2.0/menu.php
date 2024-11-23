@@ -27,5 +27,6 @@
         </ul>
     </section>
     </body>
+    <?php require 'footer.php'; ?>
 
     </html>
