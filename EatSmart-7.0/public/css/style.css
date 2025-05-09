@@ -1,0 +1,410 @@
+*,::before,::after  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: "Poppins", sans-serif; */
+    list-style: none;
+    
+  }
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    height: 100vh;
+    font-family: "Poppins", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    background-color: gray;
+}
+
+nav a {
+    color: white;
+}
+nav ul{
+    display: flex;
+    gap: 35px;
+    padding: 30px;
+    padding-left: 40px;
+}
+
+nav ul li {
+    font-size: 2.4rem;
+}
+
+.icon-user {
+    margin-left: auto;
+    color: #fafafa;
+}
+
+.menu-text {
+    color: #FAFAFA;
+}
+
+/* --------------------HOME-SECTION----------------------- */
+
+.home-section {
+    height: 100vh;
+    background: url(../assets/banner.jpg) no-repeat 50% 50%;
+    background-size: cover;
+}
+H1 {
+    padding-top: 120px;
+    color: #fafafa;
+    font-size: 3.2rem;
+    text-align: center;
+    font-weight: 100;
+}
+
+h1 span {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* ------------------------------PRESENTATION--------------------------- */
+
+.text-section {
+    margin-top: 100px;
+    margin-left: 180px;
+}
+
+.text-section h2 {
+    width: 600px;
+    text-align: center;
+    font-size: 3.2rem;
+    color: #849D75;
+}
+
+.text-section p {
+    padding-top: 50px;
+    width: 600px;
+    font-size: 1.8rem;
+    font-weight:normal;
+}
+
+.presentation {
+    display: flex;
+    gap: 200px;
+    margin-bottom: 200px;
+}
+.presentation img {
+    height: 500px;
+    border-radius: 200px;
+    margin-top: 180px;
+}
+
+/* --------------------------------MENU SECTION ----------------------------- */
+
+.menu-section {
+    display: flex;
+    flex-direction: column;
+}
+.text-menu-section h2 {
+    text-align: center;
+    color: #849D75;
+    font-size: 3.2rem;
+}
+
+.text-menu-section p {
+    margin: 0 auto;
+    padding-top: 40px;
+    width: 600px;
+    font-size: 1.6rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.menu {
+    /* margin-top: 60px; */
+    margin: 60px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.plats {
+    font-size: 1.4rem;
+}
+
+.plats h2 {
+    font-weight: 600;
+}
+
+.command-button {
+    margin: 40px;
+    text-align: center;
+}
+
+.command-button a {
+    background-color: #849D75;
+    color: #fafafa;
+    font-size: 2.3rem;
+    padding: 20px;
+    border-radius: 50px; 
+}
+
+/* -------------------------CONTACT--------------------- */
+
+.contact-section {
+    margin-top: 100px;
+    margin-left: 180px;
+    margin-bottom: 50px;
+    display: flex;
+    gap: 150px;
+}
+
+.contact-text-section {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.contact-text-section h2 {
+    font-size: 3.2rem;
+    color: #849D75;
+}
+
+.contact-text-section p {
+    font-size: 1.8rem;
+    line-height:1.5;
+    width: 600px;
+}
+
+.contact-section img{
+    height: 600px;
+    border-radius: 175px;
+    /* margin-right: 200px; */
+}
+
+.contact-section span {
+    margin: 10px;
+    font-weight: bold;
+}
+
+
+/* ---------------------------FORM-------------------- */
+
+.preform{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.preform span {
+    font-size: 2.4rem;
+}
+
+.inscription a {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    background-color: gray;
+    color: #E9E9ED;
+}
+
+.login a {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    background-color: gray;
+    color: #E9E9ED;
+}
+
+.form-contact {
+    text-align: center;
+    margin-top: 60px;
+}
+
+form {
+    max-width: 900px;
+    text-align: center;
+    margin: 90px auto 130px auto;
+}
+
+input,
+textarea,
+form button {
+    border: none;
+    width: 55%;
+    padding: 15px 10px;
+    margin: 10px 0;
+    font-size: 1.1rem;
+    border-radius: 8px;
+}
+
+textarea {
+    height: 130px;
+}
+
+form button {
+    color: #fafafa;
+    font-size: 1.2rem;
+    background-color: #172a3a;
+    margin-bottom: 20px;
+}
+
+form p span {
+    text-decoration: 2px red underline;
+    font-weight: 600;
+}
+
+/* ----------------------COMMANDES--------------------------- */
+
+.title-commandes{
+   text-align: center;
+    margin-top: 40px;
+    font-size: 2rem;
+}
+
+.commandes-menu {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+.commandes-menu H2 {
+    font-size: 1.5rem;
+}
+
+.commandes-menu li {
+    font-size: 1.2rem;
+}
+
+/* -------------------------DASHBOARD--------------------*/
+
+.dashboard-text {
+    display: flex;
+    flex-direction: column;
+    color: #333;
+    align-items: center;
+    margin: 30px 0;    
+}
+
+/* -------------------------PLATS------------------------ */
+.id-link {
+    color : black;
+}
+
+/* ----------------------------DETAILS---------------------- */
+
+.details {
+    margin: 100px 0 0 100px;
+}
+
+.details h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.details p {
+    font-size: 1.5rem;
+}
+
+/* --------------------------RECHERCHE---------------------- */
+.recherche {
+    text-align: center;
+    margin: 50px auto;
+} 
+.recherche input {
+    text-align: center;
+}
+
+.recherche h2 {
+    font-size: 2rem;
+}
+/* -------------------------FOOTER--------------------- */
+
+
+footer {
+    background-color: #1f4261;
+    color: whitesmoke;
+    text-align: center;
+  }
+  
+  footer h2 {
+    padding: 20px 0;
+  }
+  
+  .container-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    gap: 250px;
+    margin-bottom: 30px;
+    font-size: 1.2rem;
+  }
+  
+  .container-container span {
+    font-size: 2rem;
+    text-decoration: underline;
+    margin-bottom: 20px;
+  }
+  .container-container a {
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: whitesmoke;
+  }
+  .container-site {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+  }
+  
+  .container-missions {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .container-sociaux {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+.container-sociaux li {
+    font-size: 1.4rem;
+}
+  
+  #trait {
+    height: 1px;
+    width: 75%;
+    background-color: whitesmoke;
+    margin: 10px auto;
+  }
+  .Copyrightandicons {
+    display: flex;
+    margin-bottom: 20px;
+    padding: 20px 10%;
+  }
+  
+  #Copyright {
+    width: 50%;
+    text-align: left;
+    color: whitesmoke;
+  }
+  
+  #Copyright span {
+    font-size: 1.1rem;
+  }
+  
+  #icons {
+    width: 50%;
+    text-align: right;
+  }
+  
+  #icons a {
+    display: inline-block;
+    margin: 0 15px;
+    font-size: 1.4rem;
+    color: whitesmoke;
+  }
+  
+  #icons a:hover {
+    transform: scale(1.5);
+    transition: 0.3s;
+  }
